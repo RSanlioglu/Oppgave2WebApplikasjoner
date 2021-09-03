@@ -9,12 +9,68 @@
         <link rel="stylesheet" href="indexStyle.css" /> 
     </head>
     <body>
+        <!--Header som skal represenetere første raden på siden-->
         <header>
            <h1>HIOF</h1>
            <nav id="menyNavigasjon">
                <a href="">User user</a> <!--Blank link som ellers hadde videresendt bruker til profil for eksempel-->
            </nav>
         </header>
-       
+
+        <!--Main taggen skal inneholde hoved-innholdet av siden-->
+        <main>
+            <!--Skjemaet som skal la brukeren legge inn oppgavver-->
+            <form method="POST">
+                <label for="title">Title</label><br>
+                <input id="title" type="Text"/><br><br>
+
+                <label for="content">Content</label><br>
+                <input id="content" type="text"/><br><br>
+
+                <input type="submit" value="Add">
+            </form>
+
+            <!--Seksjon for alle todo-elementer-->
+            <section id="todoSection">
+                <h2>My Todos</h2>
+
+                <!--Todo-elementer defineres som "artikler" siden de skal stå alene og ikke har noen flere barn-->
+                <article class="todoArticle">
+                    <h3>Todotitle</h3>
+                    <p>I'm baby sriracha hot chicken mixtape pabst organic air...</p>
+                    <button type="button">Complete</button>
+                </article>
+
+                <article class="todoArticle">
+                    <h3>Todotitle</h3>
+                    <p>I'm baby sriracha hot chicken mixtape pabst organic air...</p>
+                    <button type="button">Complete</button>
+                </article>
+
+                <article class="todoArticle">
+                    <h3>Todotitle</h3>
+                    <p>I'm baby sriracha hot chicken mixtape pabst organic air...</p>
+                    <button type="button">Complete</button>
+                </article>
+
+                <article class="todoArticle">
+                    <h3>Todotitle</h3>
+                    <p>I'm baby sriracha hot chicken mixtape pabst organic air...</p>
+                    <button type="button">Complete</button>
+                </article>
+
+                <article class="todoArticle">
+                    <h3>Todotitle</h3>
+                    <p>I'm baby sriracha hot chicken mixtape pabst organic air...</p>
+                    <button type="button">Complete</button>
+                </article>
+                
+                <article class="todoArticle">
+                    <h3>Todotitle</h3>
+                    <p>I'm baby sriracha hot chicken mixtape pabst organic air...</p>
+                    <button type="button">Complete</button>
+                </article>
+            </section>
+        </main>
     </body>
 </html>

@@ -1,13 +1,32 @@
 /* Base styling */
+
 * {
-    /* box-sizing: border-box; */
-  }
-  
-  section,
-  article {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Add styling */
-  
+   box-sizing: border-box; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: grey;
+
+}
+
+header nav a:visited{
+    text-decoration: none;
+    color:grey;
+}
+
+section,
+article {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add styling */
