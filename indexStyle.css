@@ -28,3 +28,28 @@ header nav a:visited{
     text-decoration: none;
     color:grey;
 }
+
+main {
+    margin:auto;
+    width: 65%;
+    margin-top: 2%;
+    padding: 5px;
+}
+
+
+#postNewTodos {
+    position: relative;
+}
+
+#title {
+    width: 50%;
+}
+
+#content {
+    width: 100%;
+}
+
+#btnAdd {
+  position: absolute;
+  right: 0px;
+}
