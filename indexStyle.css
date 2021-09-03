@@ -4,6 +4,12 @@
    box-sizing: border-box; 
 }
 
+section,
+article {
+  margin: 0;
+  padding: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -22,11 +28,3 @@ header nav a:visited{
     text-decoration: none;
     color:grey;
 }
-
-section,
-article {
-  margin: 0;
-  padding: 0;
-}
-
-/* Add styling */
