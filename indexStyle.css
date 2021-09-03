@@ -16,6 +16,7 @@ header {
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
+    box-shadow: 0 8px 10px -8px rgba(138, 138, 138, 0.3);
 }
 
 header nav a{
@@ -36,6 +37,9 @@ main {
     padding: 5px;
 }
 
+label {
+    font-weight: bold;
+}
 
 #postNewTodos {
     position: relative;
@@ -61,7 +65,7 @@ main {
 #btnAdd {
   position: absolute;
   right: 0px;
-  background-color: #5bfaaa; 
+  background-color: #1cd38d; 
   border: none;
   border-radius: 3px;;
   color: white;
@@ -70,5 +74,45 @@ main {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  font-weight: bold;
 }
-    
+
+#btnAdd:hover {
+    background-color: #16aa71;
+    cursor: pointer;
+}
+
+#todoSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 7%;
+}
+
+.todoArticle {
+    padding: 10px;
+    box-shadow: 0 6px 10px rgba(38, 255, 201, 0.3);
+}
+
+.todoArticle button {
+    position: relative;
+    left: 60%;
+    background-color: #1cd38d; 
+    border: none;
+    border-radius: 3px;;
+    color: white;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.todoArticle button:hover {
+    background-color: #16aa71;
+    cursor: pointer;
+}
+
+
+  
