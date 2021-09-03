@@ -39,17 +39,36 @@ main {
 
 #postNewTodos {
     position: relative;
+    
+}
+
+#title,#content {
+    border-radius: 3px;
+    border-color: lightgrey;
+    border-width: 2px;
 }
 
 #title {
     width: 50%;
+    height: 30px;
 }
 
 #content {
     width: 100%;
+    height: 150px;
 }
 
 #btnAdd {
   position: absolute;
   right: 0px;
+  background-color: #5bfaaa; 
+  border: none;
+  border-radius: 3px;;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
+    
