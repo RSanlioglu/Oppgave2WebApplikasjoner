@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
+        
         <title>CSS Box Model</title>
         <meta name="description" content="Hiof Webapplikasjoner" />
         <meta name="author" content="Hiof Webapplikasjoner" />
@@ -19,6 +20,8 @@
 
         <!--Main taggen skal inneholde hoved-innholdet av siden-->
         <main>
+            <!--Seksjon som inneholder skjema for innsetting av nye todo-oppgaver-->
+            <section id="postNewTodos">
             <!--Skjemaet som skal la brukeren legge inn oppgavver-->
             <form method="POST">
                 <label for="title">Title</label><br>
@@ -27,8 +30,10 @@
                 <label for="content">Content</label><br>
                 <input id="content" type="text"/><br><br>
 
-                <input type="submit" value="Add">
-            </form>
+                <input id="btnAdd" type="submit" value="Add">
+            </form> 
+            </section>
+
 
             <!--Seksjon for alle todo-elementer-->
             <section id="todoSection">
